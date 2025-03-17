@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"readingpotentiometervalue\startup_stm32f103xb.o"
+"readingpotentiometervalue\main.o"
+"readingpotentiometervalue\stm32f1xx_it.o"
+"readingpotentiometervalue\stm32f1xx_hal_msp.o"
+"readingpotentiometervalue\stm32f1xx_hal_gpio_ex.o"
+"readingpotentiometervalue\stm32f1xx_hal_adc.o"
+"readingpotentiometervalue\stm32f1xx_hal_adc_ex.o"
+"readingpotentiometervalue\stm32f1xx_hal.o"
+"readingpotentiometervalue\stm32f1xx_hal_rcc.o"
+"readingpotentiometervalue\stm32f1xx_hal_rcc_ex.o"
+"readingpotentiometervalue\stm32f1xx_hal_gpio.o"
+"readingpotentiometervalue\stm32f1xx_hal_dma.o"
+"readingpotentiometervalue\stm32f1xx_hal_cortex.o"
+"readingpotentiometervalue\stm32f1xx_hal_pwr.o"
+"readingpotentiometervalue\stm32f1xx_hal_flash.o"
+"readingpotentiometervalue\stm32f1xx_hal_flash_ex.o"
+"readingpotentiometervalue\stm32f1xx_hal_exti.o"
+"readingpotentiometervalue\stm32f1xx_hal_tim.o"
+"readingpotentiometervalue\stm32f1xx_hal_tim_ex.o"
+"readingpotentiometervalue\system_stm32f1xx.o"
+--strict --scatter "ReadingPotentiometerValue\ReadingPotentiometerValue.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ReadingPotentiometerValue.map" -o ReadingPotentiometerValue\ReadingPotentiometerValue.axf
